@@ -1,0 +1,28 @@
+{
+  "name": "payguard-ai",
+  "version": "1.0.0",
+  "description": "PayGuard AI: Autonomous Emergency Commerce & Offline Payment Recovery Agent (PayPal Sandbox)",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "license": "MIT",
+  "keywords": [
+    "paypal",
+    "hackathon",
+    "ai-agent",
+    "fintech",
+    "payments",
+    "express"
+  ]
+}
